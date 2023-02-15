@@ -121,7 +121,7 @@ function comprarCarrito() {
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: '<a href="../contactanos.html">Comprar</a>'
+        confirmButtonText: '<a href="././contactanos.html">Comprar</a>'
         }).then((result) => {
         if (result.isConfirmed) {
             productosEnCarrito.length = 0;
