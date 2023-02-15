@@ -10,7 +10,7 @@
     <meta property="og:description" content="Gamming Store | La mejor tienda gamming donde conseguiras los mejores precios. Los mejores perifericos al mejor precio. Monitores, teclados, auriculares, mouse, microfonos.">
     <meta property="og:image" content="https://maurolores92.github.io/Gamming-Store/img/logonegro.jpg">
     <meta property="og:url" content="https://maurolores92.github.io/Gamming-Store/">
-    <meta property="og:site_name" content="Gamming Store | Tu tienda Virtual">
+    <meta property="og:site_name" content="Carrito | Gamming Store | Tu tienda Virtual">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_ES">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
@@ -19,85 +19,72 @@
     <link rel="manifest" href="img/favicon/site.webmanifest">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Gamming Store</title>
 </head>
 <body>
     <div class="nav-mobile">
-            <h1 class="logo">Gamming Store</h1>
-            <button class="open-nav" id="open-nav"><i class="bi bi-list"></i></button>
-    </div>
-    <nav>
-        <button class="close-nav" id="close-nav"><i class="bi bi-x"></i></button>
         <h1 class="logo">Gamming Store</h1>
-        <div class="nav-menu">
-            <ul class="nav-menu">
-                <li><a href="./index.html" class="boton-nav boton-categoria">Home</a></li>
-                <li><a href="./pages/contactanos.html" class="boton-nav boton-categoria">Contactanos</a></li>
-                <li><a href="./pages/micuenta.html" class="boton-nav boton-categoria">Mi cuenta</a></li>
-            </ul>
-        </div>
-        <div class="nav-menu-derecha">
-            <div class="nav-menu-iconos">
-                <a href="https://www.instagram.com/maurolores92/" class="boton-nav boton-categoria"><i class="bi bi-instagram"></a></i>
-                <a href="https://www.linkedin.com/in/mauriciolores/" class="boton-nav boton-categoria"><i class="bi bi-linkedin"></a></i>
-                <a href="https://github.com/maurolores92" class="boton-nav boton-categoria"><i class="bi bi-github"></a></i>
-            </div>
-        </div>
-        
-    </nav>
-    <div class="logo-principal">
-    <img src="img/logonegro.jpg" alt="logo gamming store">
+        <button class="open-nav" id="open-nav"><i class="bi bi-list"></i></button>
+</div>
+<nav>
+    <button class="close-nav" id="close-nav"><i class="bi bi-x"></i></button>
+    <h1 class="logo">Gamming Store</h1>
+    <div class="nav-menu">
+        <ul class="nav-menu">
+            <li><a href="../index.html" class="boton-nav boton-categoria">Home</a></li>
+            <li><a href="./contactanos.html" class="boton-nav boton-categoria">Contactanos</a></li>
+            <li><a href="./micuenta.html" class="boton-nav boton-categoria">Mi cuenta</a></li>
+        </ul>
     </div>
-    <section class="slider">
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="img/monitor01-removebg-preview.webp" style="width:100%" alt="Imagen del slider gamer">
-            </div>
-            <div class="mySlides fade">
-                <img src="img/monitor02-removebg-preview.webp" style="width:100%" alt="Imagen del slider gamer">
-            </div>
-            <div class="mySlides fade">
-                    <img src="img/monitor03-removebg-preview.webp" style="width:100%" alt="Imagen del slider gamer">
-            </div>
-        </div>
-    </section>
+    <div class="nav-menu-iconos">
+        <a href="https://www.instagram.com/maurolores92/" class="boton-nav boton-categoria"><i class="bi bi-instagram"></a></i>
+        <a href="https://www.linkedin.com/in/mauriciolores/" class="boton-nav boton-categoria"><i class="bi bi-linkedin"></a></i>
+        <a href="https://github.com/maurolores92" class="boton-nav boton-categoria"><i class="bi bi-github"></a></i>
+    </div>
+    
+</nav>
+    <div class="logo-principal">
+        <img src="../img/logonegro.jpg" alt="logo gamming store">
+    </div>
     <div class="wrapper">
         <header class="header-mobile">
             <button class="open-menu" id="open-menu"><i class="bi bi-list"></i></button>
-            <a class="boton-menu boton-carrito" href="./pages/carrito.html">
-                <i class="bi bi-cart-fill"></i> Carrito</span>
-            </a>
         </header>
         <aside>
             <button class="close-menu" id="close-menu"><i class="bi bi-x"></i></button>
             <header>
-                <h2 class="logo"></h2>
+                <h1 class="logo"></h1>
             </header>
             <div class="nav">
                 <ul class="menu">
-                    <li><button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button></li>
-                    <li><button id="monitores" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Monitores</button></li>
-                    <li><button id="teclados" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Teclados</button></li>
-                    <li><button id="mouse" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Mouse</button></li>
-                    <li><button id="auriculares" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Auriculares</button></li>
-                    <li><button id="microfonos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Microfonos</button></li>
-                    <li><button id="joystick" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Joystick</button></li>
-                    <li><a class="boton-menu boton-carrito" href="./pages/carrito.html">
-                        <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
-                    </a>
-                    </li>
+                    <li><a class="boton-menu boton-carrito" href="../index.html"><button class="boton-menu boton-categoria"><i class="bi bi-arrow-return-left"></i>Seguir comprando</button></a></li>
+                    <li><a href="./carrito.html"><button class="boton-menu boton-categoria boton-carrito active"><i class="bi bi-cart-fill"></i>Carrito</button></a></li>
                 </ul>
             </div>
-            <div class="texto-footer"></div>
+            <div class="texto-footer">2023 Mauricio Lores</div>
         </aside>
         <main>
-            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
-            <div id="contenedor-productos" class="contenedor-productos">
-                <!--Esto lo completamos con JAVASCRIPT-->
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio. <i class="bi bi-emoji-frown"></i></p>
+                <div id="carrito-productos" class="carrito-productos disabled">
+                    <!--Esto se va  a completar con el JAVASCRIPT carrito.js-->
+                </div>
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <div class="carrito-acciones-total">
+                            <p>total</p>
+                            <p id="total">$119000</p>
+                        </div>
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+                <p id="carrito-comprado" class="carrito-comprado">Muchas gracias por tu Compra. <i class="bi bi-emoji-laughing"></i></p>
             </div>
-
-
         </main>
     </div>
     <footer>
@@ -133,10 +120,9 @@
     </footer>
     <div class="copyright">Todos los derechos reservados 2023 &#9400 Mauricio Lores</div>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/menu.js"></script>
     
-
 </body>
 </html>

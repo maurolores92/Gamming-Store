@@ -8,7 +8,7 @@ const contenedorCarritoComprado = document.querySelector("#carrito-comprado");
 let botonesEliminar = document.querySelectorAll("#carrito-producto-eliminar");
 const botonVaciar = document.querySelector("#carrito-acciones-vaciar");
 const contenedorTotal = document.querySelector("#total");
-const botonComprar = document.querySelector("#carrito-acciones-comprar")
+const botonComprar = document.querySelector("#carrito-acciones-comprar");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 
 // FUNCIONES
@@ -25,7 +25,7 @@ if (productosEnCarrito && productosEnCarrito.length > 0) {
         const div = document.createElement("div");
         div.classList.add("carrito-producto");
         div.innerHTML = `
-            <img class="carrito-producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
+            <img class="carrito-producto-imagen" src="../${producto.imagen}" alt="${producto.titulo}">
             <div class="carrito-producto-titulo">
                 <small>Título</small>
                 <h3>${producto.titulo}</h3>
@@ -121,7 +121,7 @@ function comprarCarrito() {
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: '<a href="././contactanos.html">Comprar</a>'
+        confirmButtonText: '<a href="../pages/contactanos.html">Comprar</a>'
         }).then((result) => {
         if (result.isConfirmed) {
             productosEnCarrito.length = 0;
