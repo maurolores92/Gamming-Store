@@ -751,7 +751,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr;
     }
@@ -778,7 +778,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 900px) {
 
     .informacion {
         margin: 0rem;
